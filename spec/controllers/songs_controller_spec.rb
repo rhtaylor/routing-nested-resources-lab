@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe SongsController do
+describe SongsController do
 
   before do
     Song.destroy_all
